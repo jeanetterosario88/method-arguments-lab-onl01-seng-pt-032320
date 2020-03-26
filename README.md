@@ -1,29 +1,7 @@
-# Method Arguments Lab
+def introduction
+end
 
-## Objectives
-
-1. Define a method that takes in an argument and uses that argument in the
-   method body.
-
-2. Define a method that takes in two arguments and uses both arguments in the
-   method body.
-
-## Instructions
-
-You'll be coding your methods in `lib/introduction.rb`.
-
-#### The `#introduction` Method
-
-Run the test suite to get started. To do that, run `learn` or `learn test` in
-your terminal. Let's take a look at the first error:
-
-```bash
-Failures:
-
-  1) #introduction takes in an argument of a name and puts out a phrase with that name using string interpolation
-     Failure/Error: expect{introduction("Josh")}.to output("Hi, my name is Josh.\n").to_stdout
-     NoMethodError:
-       undefined method `introduction' for #<RSpec::ExampleGroups::Introduction:0x007fdbc499a938>
+efined method `introduction' for #<RSpec::ExampleGroups::Introduction:0x007fdbc499a938>
      # ./spec/introduction_spec.rb:5:in `block (3 levels) in <top (required)>'
      # ./spec/introduction_spec.rb:5:in `block (2 levels) in <top (required)>'
 ```
